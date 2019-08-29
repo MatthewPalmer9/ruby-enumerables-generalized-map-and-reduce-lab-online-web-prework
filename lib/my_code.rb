@@ -9,10 +9,5 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_point = nil)
-  total = 0 
-  count = 0 
-  while count < source_array.length 
-    yield(source_array + starting_point)
-  end
-  total
+  if starting_point = 
 end
