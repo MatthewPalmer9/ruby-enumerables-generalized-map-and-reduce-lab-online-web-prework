@@ -8,7 +8,7 @@ def map(source_array)
   new
 end
 
-def reduce(source_array, starting_point = 0)
+def reduce(source_array, starting_point = nil)
   total = 0 
   count = 0 
   while count < source_array.length 
