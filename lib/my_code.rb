@@ -3,4 +3,7 @@ def map(source_array)
   count = 0 
   while count < source_array.length do
     new.push(yield(source_array[i]))
+    i+=1 
+  end
+  new
 end
