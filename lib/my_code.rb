@@ -1,4 +1,6 @@
 def map(source_array)
-  p source_array.map(){|n| n * -1}
-  p source_array.map(){|n| n}
+  new = []
+  count = 0 
+  while count < source_array.length do
+    
 end
